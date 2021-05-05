@@ -1,6 +1,6 @@
 #Leer informacion de un archivo caracter por caracter
 
-archivo = open(input("Dame el nombre del archivo: "), 'r')
+archivo = open(input("Dame el nombre del archivo: ") + ".txt", 'r')
 
 cont = 0
 caracter = archivo.read(1)#Va leyendo de caracter en caracter
